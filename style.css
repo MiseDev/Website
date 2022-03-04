@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height:100vh;
+	width:100%;
+	background-color: rgb(67,97,238);
+	background-size: cover;
+	background-position: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.fade{
+	height:115%;
+	width: 278.8vh;
+	background-image: url(images/fade.png);
+	filter: contrast(200%);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	position: relative;
+	right: 128px;
+}
+.textContainer{
+	top: 50px;
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.aboutMe{
+	top: 50px;
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(114,9,183);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.button:hover {
+opacity: 0.75;
+}
